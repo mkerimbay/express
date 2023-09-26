@@ -2,26 +2,48 @@
 Express template for reference
 
 
-## steps and most used commands for this repo
+# steps and most used commands for this repo
 
-# setup new npm package -y to skip all questions
+## setup new npm package -y to skip all questions
 - npm init -y  
 
-# install express
+## install express
 - npm i express
+add node_modules to .gitignore
 
-# add node_modules to .gitignore
+## install ejs
+npm i ejs
 
-# create index.js file
+## create index.js file
 - touch index.js
 
-# install nodemon
+## install nodemon
 - npm i nodemon
-modify package.json file, add script: nodemon index.js
+modify package.json file, add to scripts: "start": "nodemon index.js"
 
-# run web-server
-npm run start
+## to run web-server
+-npm run start
 
+## Views
+-mkdir views
+-touch views/home.ejs
+
+## useful extensions for VS Code
+ejs language support from (DigitalBrainstream)
+ESLint
+npm intellisense
+
+## Public + Bootstrap
+create public/css
+create public/js
+copy min files from bootstrap website
+
+## jquery
+from https://jquery.com/download/, latest production version, save raw as jquery.js -> public/js
+
+## Partials
+mkdir views/partials
+touch head.ejs
 
 
 

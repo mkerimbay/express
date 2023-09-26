@@ -1,0 +1,8 @@
+<%- include('partials/head')  %>
+    <h1>Random number generated: <%=num%></h1>
+    <%if (num % 2 === 0){ %>
+      <h2>That is even number</h2>
+      <%}%>
+    <h3><%= num % 2 === 0 ? 'EVEN': 'ODD' %></h3>
+  </body>
+</html>
